@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BXYStatefulViewController_Example' do
+  pod 'BXYStatefulViewController', :path => '../'
+
+  target 'BXYStatefulViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
