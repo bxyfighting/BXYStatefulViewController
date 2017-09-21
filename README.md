@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/BXYStatefulViewController.svg?style=flat)](http://cocoapods.org/pods/BXYStatefulViewController)
 [![Platform](https://img.shields.io/cocoapods/p/BXYStatefulViewController.svg?style=flat)](http://cocoapods.org/pods/BXYStatefulViewController)
 
+## Description
+A view controller subclass that presents placeholder views based on content, loading, error or empty states.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
