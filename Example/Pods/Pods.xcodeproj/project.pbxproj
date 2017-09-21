@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1774CD16DB9E9349A35F7D84DDCEA94B /* UIViewController+BXYStatefulViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CAAF25B6E122E142C842688EDACA29 /* UIViewController+BXYStatefulViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3780B124534C02C25099A91F8D660B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		3DE48B5E7E156A912020FB66EE3E9920 /* BXYViewStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = A1933EB6785CC18DEA968173F21A1FE2 /* BXYViewStateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2613554806E1D0012129EB40CE1C3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		40FFB87C4AC96C6F7FFF43D1AA65B054 /* Pods-BXYStatefulViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2189BD10E22D3E60050BDFC4F639856C /* Pods-BXYStatefulViewController_Tests-dummy.m */; };
+		679B201C3FC2CDE15F26FD0BF8DDDC6C /* BXYStatefulPlaceHolderView.h in Headers */ = {isa = PBXBuildFile; fileRef = D82A42E62A324E87B1FA73EEEF864806 /* BXYStatefulPlaceHolderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68326C579D7596EDD49397DE76E8A2F0 /* BXYViewStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7CFBF3027E5108CA527854574BC24 /* BXYViewStateMachine.m */; };
+		7F88185239C91AE64CC97204AB44CD26 /* UIViewController+BXYStatefulViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9525928A4DC450BB07C390DFE404FED /* UIViewController+BXYStatefulViewController.m */; };
+		827DFB223D45B25761A3B9659CA235A5 /* Pods-BXYStatefulViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E7633366F3B21735C52183F8F9CF78 /* Pods-BXYStatefulViewController_Example-dummy.m */; };
+		87C90A6D717080D463371178620A6246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8CA4208D569E966E452A5CC1CDE048AB /* BXYStatefulViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B10780F07575139994E2ACFF61AE3DE0 /* BXYStatefulViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB065CBA4D694352B22C608AAB4F3D7 /* BXYStatefulViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E970BED4F440EE99478D376FF962FAC5 /* BXYStatefulViewController-dummy.m */; };
+		B6A159980C34D1839AC2A22619DF08F0 /* BXYStatefulViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F744FA285DA575C25FA7FC5E4FB469AF /* BXYStatefulViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAD86F510E00FBC6B6C531719E4556AA /* Pods-BXYStatefulViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D5517526413914F7D3354CD86BA74C /* Pods-BXYStatefulViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7D058D63B0418099FAD6FFD7477308B /* Pods-BXYStatefulViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A52E9A7046DB1141C1F9CA6D0F0A77 /* Pods-BXYStatefulViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E63212CD4579895B21561C8D78495710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF3678576774B639A3A59808C85C626A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CCB6B973C7FB9EE36681650301A6BB;
+			remoteInfo = BXYStatefulViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A48618D8D0E6A1BC05BEDE997212908 /* Pods-BXYStatefulViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BXYStatefulViewController_Example.modulemap"; sourceTree = "<group>"; };
+		1CC7CFBF3027E5108CA527854574BC24 /* BXYViewStateMachine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXYViewStateMachine.m; path = BXYStatefulViewController/Classes/BXYViewStateMachine.m; sourceTree = "<group>"; };
+		1EA041E36065896AE3F76FE2572B75C6 /* Pods-BXYStatefulViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXYStatefulViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2046F5924EF9F76A327CC410C9389627 /* Pods-BXYStatefulViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXYStatefulViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2189BD10E22D3E60050BDFC4F639856C /* Pods-BXYStatefulViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BXYStatefulViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		2510B73D78E096B9446DBB5D14E63826 /* Pods-BXYStatefulViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BXYStatefulViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26A52E9A7046DB1141C1F9CA6D0F0A77 /* Pods-BXYStatefulViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BXYStatefulViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		3097F3DB58A573741B7F3301D657DE68 /* BXYStatefulViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BXYStatefulViewController.modulemap; sourceTree = "<group>"; };
+		33BF6D267536902D0452B609E2D8C45A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F34849EBF124E5FA29878494C5224FD /* BXYStatefulViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXYStatefulViewController-prefix.pch"; sourceTree = "<group>"; };
+		40A8B0CC986546ED8EDAB67493A95FC3 /* Pods-BXYStatefulViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXYStatefulViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B4AFF8AD07868293E66C99B5CEBB83B /* Pods-BXYStatefulViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXYStatefulViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		53221021D107E470C519246D853257B1 /* BXYStatefulViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BXYStatefulViewController.framework; path = BXYStatefulViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E66E426B8348FB01747E161F7714DA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6737A58E0FC6B1A41210FA7A6EA6DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A70CD7D5B7E8B71AD5756155744DF2C /* Pods-BXYStatefulViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXYStatefulViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FC7CC8478ED8352CFFE77B7801CD304 /* Pods-BXYStatefulViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXYStatefulViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		A0BF00ECF4F3635F02E4BC30266E55D4 /* Pods-BXYStatefulViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXYStatefulViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A1933EB6785CC18DEA968173F21A1FE2 /* BXYViewStateMachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXYViewStateMachine.h; path = BXYStatefulViewController/Classes/BXYViewStateMachine.h; sourceTree = "<group>"; };
+		B10780F07575139994E2ACFF61AE3DE0 /* BXYStatefulViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXYStatefulViewController.h; path = BXYStatefulViewController/Classes/BXYStatefulViewController.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7E7633366F3B21735C52183F8F9CF78 /* Pods-BXYStatefulViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BXYStatefulViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		B9525928A4DC450BB07C390DFE404FED /* UIViewController+BXYStatefulViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BXYStatefulViewController.m"; path = "BXYStatefulViewController/Classes/UIViewController+BXYStatefulViewController.m"; sourceTree = "<group>"; };
+		C4CAAF25B6E122E142C842688EDACA29 /* UIViewController+BXYStatefulViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BXYStatefulViewController.h"; path = "BXYStatefulViewController/Classes/UIViewController+BXYStatefulViewController.h"; sourceTree = "<group>"; };
+		D4CAE4184F2CE347C5650CDE20A71D28 /* Pods-BXYStatefulViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BXYStatefulViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8088420A5921F03CCE40AB5CB3F6F76 /* Pods_BXYStatefulViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BXYStatefulViewController_Tests.framework; path = "Pods-BXYStatefulViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82A42E62A324E87B1FA73EEEF864806 /* BXYStatefulPlaceHolderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXYStatefulPlaceHolderView.h; path = BXYStatefulViewController/Classes/BXYStatefulPlaceHolderView.h; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBF93BFF88F1E68FAA0E2BE9330D73EB /* Pods-BXYStatefulViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXYStatefulViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E970BED4F440EE99478D376FF962FAC5 /* BXYStatefulViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BXYStatefulViewController-dummy.m"; sourceTree = "<group>"; };
+		EEDF3F6CB6523DFC936F85D14C57E2BA /* BXYStatefulViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BXYStatefulViewController.xcconfig; sourceTree = "<group>"; };
+		EF1E1688E7DDAB10B9DF798A3BEE45BE /* Pods-BXYStatefulViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BXYStatefulViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		F16E43FA4255729FB9AE8465761CD204 /* Pods-BXYStatefulViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXYStatefulViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4D5517526413914F7D3354CD86BA74C /* Pods-BXYStatefulViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BXYStatefulViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F744FA285DA575C25FA7FC5E4FB469AF /* BXYStatefulViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXYStatefulViewController-umbrella.h"; sourceTree = "<group>"; };
+		F867A239FA635DA74A19D36930677B76 /* Pods-BXYStatefulViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXYStatefulViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		FF2617C250915D9EC72B5F1B48E2A1B1 /* Pods_BXYStatefulViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BXYStatefulViewController_Example.framework; path = "Pods-BXYStatefulViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5197EB056EACAEC1B602C4C9FA7F3053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C90A6D717080D463371178620A6246 /* Foundation.framework in Frameworks */,
+				3F2613554806E1D0012129EB40CE1C3D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818C8B1F1CFC08643F9824B60B87E9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3780B124534C02C25099A91F8D660B9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E75D7036488B777B1F0CA66FB9AFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63212CD4579895B21561C8D78495710 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F31AE1CB357DA267927E892652A20E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3097F3DB58A573741B7F3301D657DE68 /* BXYStatefulViewController.modulemap */,
+				EEDF3F6CB6523DFC936F85D14C57E2BA /* BXYStatefulViewController.xcconfig */,
+				E970BED4F440EE99478D376FF962FAC5 /* BXYStatefulViewController-dummy.m */,
+				3F34849EBF124E5FA29878494C5224FD /* BXYStatefulViewController-prefix.pch */,
+				F744FA285DA575C25FA7FC5E4FB469AF /* BXYStatefulViewController-umbrella.h */,
+				33BF6D267536902D0452B609E2D8C45A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BXYStatefulViewController";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FF6D30B3C9C18AA4B7DCF966202BD1A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE87793CDFF31BA8566CDC288CE0CAC1 /* Pods-BXYStatefulViewController_Example */,
+				B330093B1C0830D2F2F02D6FE7F557D9 /* Pods-BXYStatefulViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AA3919EC250D3C5874F5AC5FC649E4B4 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				AD1234C87690F0A4569A1B484D5B3970 /* Products */,
+				5FF6D30B3C9C18AA4B7DCF966202BD1A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E582AD04A127ACFCDD729797846F3B5 /* BXYStatefulViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D82A42E62A324E87B1FA73EEEF864806 /* BXYStatefulPlaceHolderView.h */,
+				B10780F07575139994E2ACFF61AE3DE0 /* BXYStatefulViewController.h */,
+				A1933EB6785CC18DEA968173F21A1FE2 /* BXYViewStateMachine.h */,
+				1CC7CFBF3027E5108CA527854574BC24 /* BXYViewStateMachine.m */,
+				C4CAAF25B6E122E142C842688EDACA29 /* UIViewController+BXYStatefulViewController.h */,
+				B9525928A4DC450BB07C390DFE404FED /* UIViewController+BXYStatefulViewController.m */,
+				0F31AE1CB357DA267927E892652A20E5 /* Support Files */,
+			);
+			name = BXYStatefulViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AA3919EC250D3C5874F5AC5FC649E4B4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E582AD04A127ACFCDD729797846F3B5 /* BXYStatefulViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AD1234C87690F0A4569A1B484D5B3970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53221021D107E470C519246D853257B1 /* BXYStatefulViewController.framework */,
+				FF2617C250915D9EC72B5F1B48E2A1B1 /* Pods_BXYStatefulViewController_Example.framework */,
+				D8088420A5921F03CCE40AB5CB3F6F76 /* Pods_BXYStatefulViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE87793CDFF31BA8566CDC288CE0CAC1 /* Pods-BXYStatefulViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6E66E426B8348FB01747E161F7714DA6 /* Info.plist */,
+				0A48618D8D0E6A1BC05BEDE997212908 /* Pods-BXYStatefulViewController_Example.modulemap */,
+				2510B73D78E096B9446DBB5D14E63826 /* Pods-BXYStatefulViewController_Example-acknowledgements.markdown */,
+				F16E43FA4255729FB9AE8465761CD204 /* Pods-BXYStatefulViewController_Example-acknowledgements.plist */,
+				B7E7633366F3B21735C52183F8F9CF78 /* Pods-BXYStatefulViewController_Example-dummy.m */,
+				4B4AFF8AD07868293E66C99B5CEBB83B /* Pods-BXYStatefulViewController_Example-frameworks.sh */,
+				F867A239FA635DA74A19D36930677B76 /* Pods-BXYStatefulViewController_Example-resources.sh */,
+				26A52E9A7046DB1141C1F9CA6D0F0A77 /* Pods-BXYStatefulViewController_Example-umbrella.h */,
+				2046F5924EF9F76A327CC410C9389627 /* Pods-BXYStatefulViewController_Example.debug.xcconfig */,
+				A0BF00ECF4F3635F02E4BC30266E55D4 /* Pods-BXYStatefulViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-BXYStatefulViewController_Example";
+			path = "Target Support Files/Pods-BXYStatefulViewController_Example";
+			sourceTree = "<group>";
+		};
+		B330093B1C0830D2F2F02D6FE7F557D9 /* Pods-BXYStatefulViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8B6737A58E0FC6B1A41210FA7A6EA6DC /* Info.plist */,
+				EF1E1688E7DDAB10B9DF798A3BEE45BE /* Pods-BXYStatefulViewController_Tests.modulemap */,
+				D4CAE4184F2CE347C5650CDE20A71D28 /* Pods-BXYStatefulViewController_Tests-acknowledgements.markdown */,
+				9A70CD7D5B7E8B71AD5756155744DF2C /* Pods-BXYStatefulViewController_Tests-acknowledgements.plist */,
+				2189BD10E22D3E60050BDFC4F639856C /* Pods-BXYStatefulViewController_Tests-dummy.m */,
+				1EA041E36065896AE3F76FE2572B75C6 /* Pods-BXYStatefulViewController_Tests-frameworks.sh */,
+				9FC7CC8478ED8352CFFE77B7801CD304 /* Pods-BXYStatefulViewController_Tests-resources.sh */,
+				F4D5517526413914F7D3354CD86BA74C /* Pods-BXYStatefulViewController_Tests-umbrella.h */,
+				40A8B0CC986546ED8EDAB67493A95FC3 /* Pods-BXYStatefulViewController_Tests.debug.xcconfig */,
+				DBF93BFF88F1E68FAA0E2BE9330D73EB /* Pods-BXYStatefulViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-BXYStatefulViewController_Tests";
+			path = "Target Support Files/Pods-BXYStatefulViewController_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC9DF16489E2167945D8F5A2DECD6B45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D058D63B0418099FAD6FFD7477308B /* Pods-BXYStatefulViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43EAC9E6C940BC383E3D99008620208 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679B201C3FC2CDE15F26FD0BF8DDDC6C /* BXYStatefulPlaceHolderView.h in Headers */,
+				B6A159980C34D1839AC2A22619DF08F0 /* BXYStatefulViewController-umbrella.h in Headers */,
+				8CA4208D569E966E452A5CC1CDE048AB /* BXYStatefulViewController.h in Headers */,
+				3DE48B5E7E156A912020FB66EE3E9920 /* BXYViewStateMachine.h in Headers */,
+				1774CD16DB9E9349A35F7D84DDCEA94B /* UIViewController+BXYStatefulViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14E8F9A1B7CD95BB1961D4DDBA0D6F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD86F510E00FBC6B6C531719E4556AA /* Pods-BXYStatefulViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44CCB6B973C7FB9EE36681650301A6BB /* BXYStatefulViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682ED303C0B008F137861887D069D263 /* Build configuration list for PBXNativeTarget "BXYStatefulViewController" */;
+			buildPhases = (
+				10447C0CF26BF0B8C215FA09135B2056 /* Sources */,
+				5197EB056EACAEC1B602C4C9FA7F3053 /* Frameworks */,
+				C43EAC9E6C940BC383E3D99008620208 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BXYStatefulViewController;
+			productName = BXYStatefulViewController;
+			productReference = 53221021D107E470C519246D853257B1 /* BXYStatefulViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9B3751ACDFF987F8E506B6BD5AB8F75 /* Pods-BXYStatefulViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291CD194F6EE2B79639918CDE8D7D0A8 /* Build configuration list for PBXNativeTarget "Pods-BXYStatefulViewController_Example" */;
+			buildPhases = (
+				48D1718B1CDD57A69A6F2C97A9352352 /* Sources */,
+				A7E75D7036488B777B1F0CA66FB9AFB7 /* Frameworks */,
+				AC9DF16489E2167945D8F5A2DECD6B45 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525F62EF3D57ED79BC7BF63B2104F90C /* PBXTargetDependency */,
+			);
+			name = "Pods-BXYStatefulViewController_Example";
+			productName = "Pods-BXYStatefulViewController_Example";
+			productReference = FF2617C250915D9EC72B5F1B48E2A1B1 /* Pods_BXYStatefulViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAA9457B86C17F09951FC7122D6FCCB5 /* Pods-BXYStatefulViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4744BE7FEDD90895C585B1BCEAE74E3 /* Build configuration list for PBXNativeTarget "Pods-BXYStatefulViewController_Tests" */;
+			buildPhases = (
+				753BB6A890A353485624F7C719A39ABE /* Sources */,
+				818C8B1F1CFC08643F9824B60B87E9C2 /* Frameworks */,
+				D14E8F9A1B7CD95BB1961D4DDBA0D6F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BXYStatefulViewController_Tests";
+			productName = "Pods-BXYStatefulViewController_Tests";
+			productReference = D8088420A5921F03CCE40AB5CB3F6F76 /* Pods_BXYStatefulViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AD1234C87690F0A4569A1B484D5B3970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CCB6B973C7FB9EE36681650301A6BB /* BXYStatefulViewController */,
+				A9B3751ACDFF987F8E506B6BD5AB8F75 /* Pods-BXYStatefulViewController_Example */,
+				EAA9457B86C17F09951FC7122D6FCCB5 /* Pods-BXYStatefulViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10447C0CF26BF0B8C215FA09135B2056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB065CBA4D694352B22C608AAB4F3D7 /* BXYStatefulViewController-dummy.m in Sources */,
+				68326C579D7596EDD49397DE76E8A2F0 /* BXYViewStateMachine.m in Sources */,
+				7F88185239C91AE64CC97204AB44CD26 /* UIViewController+BXYStatefulViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D1718B1CDD57A69A6F2C97A9352352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827DFB223D45B25761A3B9659CA235A5 /* Pods-BXYStatefulViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753BB6A890A353485624F7C719A39ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FFB87C4AC96C6F7FFF43D1AA65B054 /* Pods-BXYStatefulViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525F62EF3D57ED79BC7BF63B2104F90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BXYStatefulViewController;
+			target = 44CCB6B973C7FB9EE36681650301A6BB /* BXYStatefulViewController */;
+			targetProxy = AF3678576774B639A3A59808C85C626A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2835C17F87B3F80B922CD86BFBD96F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A8B0CC986546ED8EDAB67493A95FC3 /* Pods-BXYStatefulViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BXYStatefulViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BXYStatefulViewController_Tests/Pods-BXYStatefulViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BXYStatefulViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E124398ED81FB82B1674CFB3EAD2A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2046F5924EF9F76A327CC410C9389627 /* Pods-BXYStatefulViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BXYStatefulViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BXYStatefulViewController_Example/Pods-BXYStatefulViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BXYStatefulViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DA6E64BFC3D6B9D43C4A32642F05525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF93BFF88F1E68FAA0E2BE9330D73EB /* Pods-BXYStatefulViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BXYStatefulViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BXYStatefulViewController_Tests/Pods-BXYStatefulViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BXYStatefulViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BFE65097B52601C46C8C43A057B59C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDF3F6CB6523DFC936F85D14C57E2BA /* BXYStatefulViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BXYStatefulViewController/BXYStatefulViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BXYStatefulViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BXYStatefulViewController/BXYStatefulViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BXYStatefulViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACEA4184C46DE3216D2A8F025BA479EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDF3F6CB6523DFC936F85D14C57E2BA /* BXYStatefulViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BXYStatefulViewController/BXYStatefulViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BXYStatefulViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BXYStatefulViewController/BXYStatefulViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BXYStatefulViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F113D0140644886ECD526588A7C072DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BF00ECF4F3635F02E4BC30266E55D4 /* Pods-BXYStatefulViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BXYStatefulViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BXYStatefulViewController_Example/Pods-BXYStatefulViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BXYStatefulViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291CD194F6EE2B79639918CDE8D7D0A8 /* Build configuration list for PBXNativeTarget "Pods-BXYStatefulViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E124398ED81FB82B1674CFB3EAD2A1A /* Debug */,
+				F113D0140644886ECD526588A7C072DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682ED303C0B008F137861887D069D263 /* Build configuration list for PBXNativeTarget "BXYStatefulViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEA4184C46DE3216D2A8F025BA479EE /* Debug */,
+				9BFE65097B52601C46C8C43A057B59C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4744BE7FEDD90895C585B1BCEAE74E3 /* Build configuration list for PBXNativeTarget "Pods-BXYStatefulViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2835C17F87B3F80B922CD86BFBD96F2D /* Debug */,
+				8DA6E64BFC3D6B9D43C4A32642F05525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

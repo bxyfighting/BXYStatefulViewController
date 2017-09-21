@@ -1,0 +1,6 @@
+framework module Pods_BXYStatefulViewController_Example {
+  umbrella header "Pods-BXYStatefulViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

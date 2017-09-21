@@ -1,0 +1,6 @@
+framework module BXYStatefulViewController {
+  umbrella header "BXYStatefulViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
