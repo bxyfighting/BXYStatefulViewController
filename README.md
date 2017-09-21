@@ -22,7 +22,7 @@ pod 'BXYStatefulViewController'
 
 ## Author
 
-bxyfighting, baixiangyu@sogou-inc.com
+bxyfighting, bxyfighting@163.com
 
 ## License
 
