@@ -10,17 +10,21 @@ A view controller category that presents placeholder views based on content, loa
 
 ## Overview
 In a networked application a view controller typically has the following states that need to be communicated to the user:
+
 * Loading: The content is currently loaded over the network.
 * Content: The content is available and presented to the user.
 * Empty: There is currently no content available to display.
 * Error: An error occurred whilst downloading content.
+
 As trivial as this flow may sound, there are a lot of cases that result in a rather large decision tree.
+
+![Decision Tree](decision_tree.png)
+
+BXYStatefulViewController is a concrete implementation of this particular decision tree.
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
