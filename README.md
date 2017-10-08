@@ -22,10 +22,6 @@ As trivial as this flow may sound, there are a lot of cases that result in a rat
 
 BXYStatefulViewController is a concrete implementation of this particular decision tree.
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Installation
 
 BXYStatefulViewController is available through [CocoaPods](http://cocoapods.org). To install
