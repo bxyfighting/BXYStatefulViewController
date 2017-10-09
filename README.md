@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/BXYStatefulViewController.svg?style=flat)](http://cocoapods.org/pods/BXYStatefulViewController)
 [![Platform](https://img.shields.io/cocoapods/p/BXYStatefulViewController.svg?style=flat)](http://cocoapods.org/pods/BXYStatefulViewController)
 
-## Description
 A view controller category that presents placeholder views based on content, loading, error or empty states.
 
 ## Overview
