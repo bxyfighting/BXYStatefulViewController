@@ -30,9 +30,6 @@ it, simply add the following line to your Podfile:
 pod 'BXYStatefulViewController'
 ```
 
-## swift version
-https://github.com/aschuch/StatefulViewController
-
 ## Author
 
 bxyfighting, bxyfighting@163.com
